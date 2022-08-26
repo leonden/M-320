@@ -15,7 +15,7 @@ public class Competition {
     }
 
     public void printResult() {
-        System.out.println("Schiff Nr: " + " - Name: " + " - Zeit: ");
+        System.out.println("ship no: " + " - name: " + " - time: ");
     }
 
 }
