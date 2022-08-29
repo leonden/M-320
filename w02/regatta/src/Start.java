@@ -6,6 +6,10 @@ public class Start {
         Ship ship2 = new Ship("Ship 2");
         Ship ship3 = new Ship("Ship 3");
 
+        c.start();
+
+        c.printResult();
+
 
     }
 }

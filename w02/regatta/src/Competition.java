@@ -10,11 +10,19 @@ public class Competition {
     }
 
     public void start() {
+//        for (Ship s : this.ships) {
+//            if (s != null) {
+//                s.race();
+//            }
     }
 
     public void printResult() {
         System.out.println("Competition: " + this.name);
-        System.out.println("ship no: <Ship.number>" + "<Ship.name> - name: " + "<Ship.time> - time: ");
+
+        for (int i = 0; i <= ships.length; i++) {
+            System.out.println("ship number: " + getName() + "<Ship.name> - name: " + " - time: ");
+        }
+
     }
 
 }
