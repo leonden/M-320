@@ -2,8 +2,6 @@ public class Competition {
     private String name;
     private Ship[] ships = new Ship[5];
 
-    Competition competitionName = new Competition("Vierwaldstättersee-Cup");
-
     public Competition(String name) {
     }
 
@@ -15,7 +13,8 @@ public class Competition {
     }
 
     public void printResult() {
-        System.out.println("ship no: " + " - name: " + " - time: ");
+        System.out.println("Competition: " + this.name);
+        System.out.println("ship no: <Ship.number>" + "<Ship.name> - name: " + "<Ship.time> - time: ");
     }
 
 }
