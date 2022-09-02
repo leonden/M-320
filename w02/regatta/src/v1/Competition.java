@@ -1,3 +1,5 @@
+package v1;
+
 public class Competition {
     private String name;
     private Ship[] ships = new Ship[5];
@@ -10,17 +12,14 @@ public class Competition {
     }
 
     public void start() {
-//        for (Ship s : this.ships) {
-//            if (s != null) {
-//                s.race();
-//            }
+
     }
 
     public void printResult() {
-        System.out.println("Competition: " + this.name);
+        System.out.println("v1.Competition: " + this.name);
 
         for (int i = 0; i <= ships.length; i++) {
-            System.out.println("ship number: " + getName() + "<Ship.name> - name: " + " - time: ");
+            System.out.println("ship number: " + getName() + "<v1.Ship.name> - name: " + " - time: ");
         }
 
     }
