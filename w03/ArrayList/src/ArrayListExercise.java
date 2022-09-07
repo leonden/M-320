@@ -8,8 +8,6 @@ public class ArrayListExercise {
         cart.add("HP Elitebook 840");
         cart.add("Dell Se24 Monitor");
         print(cart);
-        cart.remove("HP Elitebook 840");
-        print(cart);
     }
     public static void print(ArrayList<String> cart) {
         if(cart.size() < 1) {
