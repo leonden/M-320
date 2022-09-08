@@ -11,15 +11,7 @@ public class Item {
         return text;
     }
 
-    public void setText(String text) {
-        this.text = text;
-    }
-
     public double getPrice() {
         return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
     }
 }
