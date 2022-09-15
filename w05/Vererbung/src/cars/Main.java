@@ -3,7 +3,7 @@ package cars;
 public class Main {
     public static void main(String[] args) {
 
-        // anstelle CrashedCar.DMG_LVL_LOW auch 0 ok
+        // anstelle CrashedCar.LOW auch 0 ok
         CrashedCar cc = new CrashedCar("BMW M3", 10000, CrashedCar.LOW);
         print("low", 10000 * 0.9, cc.getPrice());
 

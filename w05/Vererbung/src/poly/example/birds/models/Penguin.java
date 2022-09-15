@@ -1,9 +1,11 @@
-package poly.example.birds;
+package poly.example.birds.models;
+
+import poly.example.birds.enums.Gender;
 
 public class Penguin extends Bird {
 
-    public Penguin(String name) {
-        super(name);
+    public Penguin(String name, Gender gender) {
+        super(name, gender);
     }
 
     @Override
