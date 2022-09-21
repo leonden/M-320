@@ -7,10 +7,10 @@ public class UsedCar extends Car {
         super(model, price);
     }
 
+    @Override
     public double getPrice() {
-
-            double pricePerKm = (this.getPrice() / 100) * 0.0005;
-            double newPrice = this.getPrice() - (pricePerKm * this.mileage);
+            double pricePerKm = (price / 100) * 0.0005;
+            double newPrice = price - (pricePerKm * this.mileage);
             if(newPrice < 0) {
                 newPrice = 0;
             }

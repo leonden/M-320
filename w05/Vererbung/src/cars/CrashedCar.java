@@ -13,16 +13,17 @@ public class CrashedCar extends Car {
         this.damageLevel = damageLevel;
     }
 
+@Override
     public double getPrice() {
-            double newPrice = this.getPrice();
+            double newPrice = price;
             switch (this.damageLevel) {
-                case LOW: //case 0:
-                    newPrice *= 0.9; // pr = pr * 0.9
+                case LOW:
+                    newPrice *= 0.9;
                     break;
-                case MEDIUM: // case 1:
+                case MEDIUM:
                     newPrice *= 0.5;
                     break;
-                case TOTAL: // case 2:
+                case TOTAL:
                     newPrice = 0;
                     break;
             }

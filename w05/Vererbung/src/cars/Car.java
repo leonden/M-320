@@ -1,16 +1,14 @@
 package cars;
 
-public class Car {
+public abstract class Car {
 
     private String model;
-    private double price;
+    protected double price;
 
     public Car(String model, double price) {
         this.model = model;
         this.price = price;
     }
 
-    public double getPrice() {
-        return price;
-    }
+    public abstract double getPrice();
 }

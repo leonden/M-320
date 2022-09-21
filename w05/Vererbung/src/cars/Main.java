@@ -2,8 +2,6 @@ package cars;
 
 public class Main {
     public static void main(String[] args) {
-
-        // anstelle CrashedCar.LOW auch 0 ok
         CrashedCar cc = new CrashedCar("BMW M3", 10000, CrashedCar.LOW);
         print("low", 10000 * 0.9, cc.getPrice());
 
@@ -26,6 +24,8 @@ public class Main {
         uc.setMileage(210000);
         print("u210000", 0, uc.getPrice());
 
+        MobilityCar mc = new MobilityCar("Tesla Model 3", price,6);
+        print("123", 432, mc.getPrice());
     }
 
     private static void print(String id, double expected, double effective) {
